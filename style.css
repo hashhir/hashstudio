@@ -1,0 +1,245 @@
+html{
+background-color: #000000;
+}
+body{
+background-color: #000000;
+}
+.navbar{
+  background-color: #000000;
+  margin-top: 10px;
+  border:1px solid #ffffff;
+
+}
+.navbar-brand{
+  font-family: 'Gill Sans MT';
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 10px;
+  color:#ffffff;
+}
+.nav-link{
+  font-weight:bold;
+  color:#ffffff;
+
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-image{
+  width: 50px;
+  padding-left: 10px;
+}
+.landing-left{
+  padding-top: 200px;
+  background-color: #000000;
+
+  font-family: 'Gill Sans MT';
+}
+.welcome{
+  color: #ffffff;
+}
+.creative{
+color: #4E4E4E;
+font-weight:900;
+}
+.landing-para{
+  padding-right: 50px;
+  color: #7C7C7C;
+  letter-spacing:5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.landing-image{
+  width: 900px;
+  height: 855;
+  margin-left: 420px; 
+  margin-top: -40px;
+}
+
+.row2{
+  padding-top: 160px;
+}
+
+.aboutme{
+  color: #ffffff;
+  font-family: 'Gill Sans MT';
+}
+.aboutmepara{
+  color: #9E9E9E;
+}
+.imgdiv{
+  justify-content: center;
+}
+.myimage{
+
+  width:255px ;
+  height:340px ;
+  margin-left: 108px;
+  margin-top: 30px;
+}
+
+.hover08 figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/* Shine */
+.hover14 figure {
+	position: relative;
+}
+.hover14 figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.hover14 figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+
+.photographer{
+  padding-top: 40px;
+
+}
+
+.image1{
+  width: 270px;
+  height: 270px;
+}
+.images{
+  margin: 5px;
+  margin-top: 10px;
+}
+    /* Add some spacing between the images */
+    .image-container {
+      padding: 5px;
+      margin-bottom: 20px;
+    }
+.photographerheading{
+  color: #ffffff;
+  font-family: 'Gill Sans MT';
+  margin-bottom: 30px;
+
+}
+#editor{
+  padding-top: 90px;
+}
+video {
+  border-radius: 10px;
+}
+.video-container {
+  padding: 5px;
+  margin-bottom: 20px; /* Increase the bottom margin to create more space */
+}
+/* Opacity #1 */
+.hover11 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	opacity: .5;
+}
+.bugimage{
+  width: 300px;
+}
+.codecontainer {
+  padding-top: 200px;
+}
+
+
+.textpart {
+  padding-top: 250px;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.contact-section {
+  background-color: #000;
+  border: 0.5px solid #6a6a6a;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+}
+.contact-section h2 {
+  text-align: center;
+}
+    /* Add spacing between input fields */
+    .form-group {
+      margin-bottom: 30px;
+    }
+        /* Customize input fields */
+        input.form-control, textarea.form-control {
+          background-color: #000;
+          border: 0.5px solid #747474;
+          color: #fff;
+          border-radius: 5px;
+        }
+        /* Remove default blue outline on focus */
+        input.form-control:focus, textarea.form-control:focus {
+          border-color: #898989;
+          box-shadow: none;
+        }
+.contactmecontainer{
+  padding-top: 200px;
+  padding-bottom: 90px;
+}
+.lastbtn{
+ margin-left: 43%;
+}
+
+#footer {
+  background-color: #363636;
+}
+footer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  margin: 0 5px; /* Adjust the margin value as needed */
+}
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lastpara{
+ text-align: center;
+}
